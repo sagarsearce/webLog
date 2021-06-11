@@ -1,0 +1,11 @@
+.editor {
+    cursor: text;
+    padding: 16px;
+    margin-bottom: 2em;
+    background: #fefefe;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .editor :global(.public-DraftEditor-content) {
+    min-height: 140px;
+  }
